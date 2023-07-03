@@ -1,5 +1,5 @@
 
-
+import './globals.css'
 export const metadata = {
   title: 'imdb',
   description: 'this is a imdb clone',

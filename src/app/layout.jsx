@@ -1,14 +1,17 @@
-
+import Header from './Components/Header/header'
 import './globals.css'
 export const metadata = {
   title: 'imdb',
   description: 'this is a imdb clone',
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({children}) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }

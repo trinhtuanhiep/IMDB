@@ -1,0 +1,19 @@
+.header_home_icon {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header_home_icon {
+        visibility: visible;
+    }
+
+    .header_home_text {
+        visibility: hidden;
+    }
+}

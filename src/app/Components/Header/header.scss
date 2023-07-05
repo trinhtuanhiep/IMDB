@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    font-size: 20px;
+}
+.menuItem {
+    display: flex;
+    gap: 30px;
+}
+.header_logo {
+  font-weight: bold;
+  padding: 5px;
+  background-color: rgb(240, 160, 12);
+  border-radius: 10px;
+}

@@ -1,4 +1,4 @@
-"use client";
+
 import Header from './Components/Header/header'
 import './globals.css'
 import Provider from './Components/Provider'
@@ -11,12 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Provider>
-          <div className='background'>
-            <Header />
-            {children}
-          </div>
+      <body className='background'>
+        <Provider >
+          <Header />
+          {children}
         </Provider>
       </body>
     </html>
